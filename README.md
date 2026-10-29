@@ -1,15 +1,5 @@
 # Hệ thống Quản lý Nhân viên (Java Swing + MySQL)
 
-## Cài đặt
-1. Chạy `hr_system.sql` trong MySQL (tạo CSDL `hrdb` + dữ liệu mẫu).
-   *Nếu bạn đã import bản cũ (chưa có chấm công/nghỉ phép)*: chạy thêm `hr_upgrade_cham_cong_nghi_phep.sql` để thêm 2 bảng mới, không mất dữ liệu.
-2. Sao chép `db.properties.example` thành `db.properties` (cùng thư mục với `build.xml`), sửa user/password MySQL.
-   (Hoặc dùng biến môi trường `HR_DB_URL`, `HR_DB_USER`, `HR_DB_PASSWORD`.)
-3. Mở bằng NetBeans, thêm thư viện `mysql-connector-j` vào Libraries (đường dẫn cũ trỏ vào máy tác giả gốc).
-4. Chạy `view.Main`.
-
-Tài khoản mẫu: Admin `admin` / `Admin@123` (tick "Quản trị viên"); nhân viên `nv0001`…`nv0004` / `Nhanvien@123`.
-
 ## Bảng đối chiếu Ngân hàng → Nhân sự
 | Bản ngân hàng | Bản nhân sự |
 |---|---|
